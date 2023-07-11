@@ -1,0 +1,16 @@
+<beans xmlns = "http://www.springframework.org/schema/beans" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="emp" class="com.Employee">
+		
+		<property name="id" value="100"></property>
+		<property name="name" value="mohit"></property>
+		<property name="programming">
+			<list>
+				<value>C</value>
+				<value>C++</value>
+				<value>Java</value>
+			</list>
+		</property>
+	</bean>
+	
+</beans>

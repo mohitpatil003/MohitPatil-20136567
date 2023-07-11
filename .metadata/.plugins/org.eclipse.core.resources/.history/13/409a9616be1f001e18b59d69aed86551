@@ -1,0 +1,28 @@
+package com;
+
+public class Book {
+
+	private int isbnno;
+	private String 	bookname;
+	private String Author;
+	
+	public int getIsbnno() {
+		return isbnno;
+	}
+	public void setIsbnno(int isbnno) {
+		this.isbnno = isbnno;
+	}
+	public String getBookname() {
+		return bookname;
+	}
+	public void setBookname(String bookname) {
+		this.bookname = bookname;
+	}
+	public String getAuthor() {
+		return Author;
+	}
+	public void setAuthor(String author) {
+		Author = author;
+	}
+	
+}
